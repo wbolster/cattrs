@@ -112,6 +112,7 @@ source = [
 [tool.coverage.report]
 exclude_also = [
     "class .*\\bProtocol(\\[.*\\])?\\):",
+    "assert_never\\("
 ]
 
 [tool.ruff]
