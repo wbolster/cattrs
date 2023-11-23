@@ -109,6 +109,11 @@ source = [
    ".tox/pypy*/site-packages",
 ]
 
+[tool.coverage.report]
+exclude_also = [
+    "class .*\\bProtocol\\):",
+]
+
 [tool.ruff]
 src = ["src", "tests"]
 select = [
