@@ -2,6 +2,9 @@
 
 ## 24.1.0 (UNRELEASED)
 
+- **Potentially breaking**: `IterableValidationError`s now require their subexceptions to have appropriate notes attached.
+  This was always the case internally in _cattrs_, but is now required of errors produced outside too.
+
 - Add support for [PEP 695](https://peps.python.org/pep-0695/) type aliases.
   ([#452](https://github.com/python-attrs/cattrs/pull/452))
 - More robust support for `Annotated` and `NotRequired` in TypedDicts.
