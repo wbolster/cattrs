@@ -5,7 +5,7 @@
 groups = ["default", "bench", "bson", "cbor2", "docs", "lint", "msgpack", "orjson", "pyyaml", "test", "tomlkit", "ujson", "tests-mypy"]
 strategy = ["cross_platform"]
 lock_version = "4.4"
-content_hash = "sha256:f56156c8b373c18f4c9885d6b13c8c2283e2f1c35adc410dafcecaa3788532f7"
+content_hash = "sha256:d292874cd2381e01a90bac32e28233a819bfe730ad78cdad078ae9b9e954596f"
 
 [[package]]
 name = "alabaster"
